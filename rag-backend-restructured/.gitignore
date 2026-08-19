@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+data/
+*.db
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.DS_Store
+
+# Keep the uploads/ folder in git, ignore its contents
+uploads/*
+!uploads/.gitkeep
